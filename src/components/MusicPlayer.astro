@@ -1,0 +1,28 @@
+---
+interface Props {
+	title: string;
+	audio: string;
+    }
+
+    const { title, audio } = Astro.props;
+---
+<div class="container">
+    <div><h2>{title}</h2></div>
+    <audio controls id="audio">
+        <source src={audio} type="audio/ogg">
+        <source src={audio} type="audio/mp3" >
+        Your browser does not support the audio element.
+    </audio>
+</div>
+
+
+<script>  
+    document.addEventListener('play', function(e){
+       var audios = document.getElementsByTagName('audio');
+        for(var i = 0, len = audios.length; i < len;i++){
+           if(audios[i] != e.target){
+                audios[i].pause();
+           }
+        }
+     }, true);
+    </script>

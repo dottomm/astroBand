@@ -1,0 +1,32 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Player from '../components/MusicPlayer.astro';
+import { getEntryBySlug } from "astro:content";
+
+const homepage = await getEntryBySlug("homepage", "audiofile");
+const {banner, music } = homepage.data;
+
+---
+
+<Layout title={banner.title}>
+	<main>
+		
+		<h1 class="title">{banner.title}</h1>
+		<ul class="musicians">
+			<li><span class="label">Vocals: </span> {banner.vocals}</li>
+			<li><span class="label">Drums:  </span>{banner.drums}</li>
+			<li><span class="label">Guitar:  </span>{banner.guitar}</li>
+			<li><span class="label">Bass:  </span>{banner.bass}</li>
+		</ul>
+		<div class="songContainer">
+			{music?.map((music) => (
+
+     			<div class="song">
+					<Player title={music.title} audio={music.audio} />
+				</div>
+          ))
+        }
+			</div>
+	</main>
+</Layout>
+
