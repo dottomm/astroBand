@@ -16,15 +16,15 @@ music:
   - title: Song Three
     audio: ../audio/New Recor-3.mp3
 
-  - title: Song Four
-    audio: ../audio/New Recor-4.mp3
+  - title: Pat Black's Friends
+    audio: ../audio/patblackfriends.mp3
 
-  - title: Song Five
-    audio: ../audio/New Recor-5.mp3
+  - title: Lego Song
+    audio: ../audio/legosong.mp3
 
-  - title: Song Six
-    audio: ../audio/New Recor-6.mp3
+  - title: Heartwrench
+    audio: ../audio/heartwrench.mp3
 
-  - title: Heart Wrench
-    audio: ../audio/Heartwrench.mp3
+  - title: Symetrical Head
+    audio: ../audio/symetricalhead.mp3
 ---
