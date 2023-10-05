@@ -49,13 +49,21 @@ body{
 .song >*{
     margin:1em;
 }
-.musicians ul, li{
+.musicians ul{
+    display: flex;
+}
+.musicians  li{
+    display: flex;
+  width: 50%;
   font-size: 1.3em;
     color:#fff;
     display: inline;
-   line-height: 200%;
-   margin-left:2em;
+   
+}
+.musicians li:not(:first-child) {
+    border-left-width: 0;
 }
 .label{
     color:var(--accent);
+    margin-left:3ch;
 }
