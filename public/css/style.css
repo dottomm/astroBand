@@ -20,6 +20,17 @@ body{
     
 }
 
+
+/* iphone */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    background: url('/images/xx-smallkristel.webp') no-repeat center center fixed;
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+    
+}
+
 .title{
     margin:1em;
     font-size: 3em;
@@ -33,7 +44,7 @@ body{
    
     display:flex;
     flex-wrap: wrap;
-    flex-direction: row;
+    flex-direction:  flex-end    ;
     justify-content: space-around;
 
 }
