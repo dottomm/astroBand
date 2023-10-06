@@ -77,7 +77,9 @@ body{
 /* iphone */
 @media only screen and (max-width: 800px) {
     body { 
-    background: url('/images/xx-smallkristel.webp') no-repeat center center fixed;
+        margin: 0;
+        padding: 0;
+    background: url('/images/fire.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
