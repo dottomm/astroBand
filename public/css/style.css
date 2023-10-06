@@ -20,17 +20,6 @@ body{
     
 }
 
-
-/* iphone */
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
-    background: url('/images/xx-smallkristel.webp') no-repeat center center fixed;
-    -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-    
-}
-
 .title{
     margin:1em;
     font-size: 3em;
@@ -43,7 +32,7 @@ body{
 .songContainer{
    
     display:flex;
-    flex-wrap: wrap;
+    flex-wrap: wrap;    
     flex-direction:  flex-end    ;
     justify-content: space-around;
 
@@ -60,15 +49,20 @@ body{
 .song >*{
     margin:1em;
 }
-.musicians ul{
+
+.musicians{
     display: flex;
 }
-.musicians  li{
+.musicians ul{
     display: flex;
-  width: 50%;
+    flex-wrap: nowrap;
+}
+.musicians  li{
   font-size: 1.3em;
     color:#fff;
-    display: inline;
+    display: flex;
+    justify-self: space-around;
+    
    
 }
 .musicians li:not(:first-child) {
@@ -76,5 +70,27 @@ body{
 }
 .label{
     color:var(--accent);
-    margin-left:3ch;
+    margin-left:1ch;
+    padding-right: 1ch;
+}
+
+/* iphone */
+@media only screen and (max-width: 300px) {
+    body { 
+    background: url('/images/xx-smallkristel.webp') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-color: yellow;
+}
+.musicians {
+    display: block;
+   
+}
+.label{
+    color:var(--accent);
+    margin-left:0ch;
+    padding-right: 3ch;
+}
 }
