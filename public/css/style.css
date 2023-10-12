@@ -13,7 +13,7 @@ body{
     margin: 0;
     padding: 0;
     background-color: #000;
-    background: url('/images/smallkristel.webp') no-repeat center center fixed;
+    background: url('/images/teddybear.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -80,11 +80,11 @@ body{
     body { 
         margin: 0;
         padding: 0;
-    background: url('/images/fire.jpg') no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+        background: url('/images/tedddybear.jpg') no-repeat center center fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
     background-color: var(--black);
 }
 .musicians {
@@ -93,7 +93,7 @@ body{
 }
 
 .label{
-    color:var(--punk);
+    color:#fff;
     margin-left:0ch;
     padding-right: 2ch;
 }
@@ -104,4 +104,11 @@ body{
 .song{
     background-color: var(--punk);
 }
+
+.musicians  li{
+    font-size: 1.3em;
+      color:var(--accent);
+      display: flex;
+      justify-self: space-around;
+
 }

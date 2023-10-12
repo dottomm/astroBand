@@ -7,17 +7,15 @@ banner:
   bass: Tom
 
 music:
-  - title: Song One
-    audio: ../audio/New Recor-1.mp3
 
-  - title: Song Two
-    audio: ../audio/New Recor-2.mp3
+  - title: Why Skate
+    audio: ../audio/WhySkate.mp3
 
-  - title: Song Three
-    audio: ../audio/New Recor-3.mp3
+  - title: Pat Black's Friend
+    audio: ../audio/patblackfriend.mp3
 
-  - title: Pat Black's Friends
-    audio: ../audio/patblackfriends.mp3
+  - title: Eating Crap
+    audio: ../audio/eatingcrap.mp3
 
   - title: Lego Song
     audio: ../audio/legosong.mp3
@@ -27,4 +25,11 @@ music:
 
   - title: Symetrical Head
     audio: ../audio/symetricalhead.mp3
+    
+  - title: Song One
+    audio: ../audio/New Recor-1.mp3
+
+  - title: Tom Riff
+    audio: ../audio/tomriff.mp3
+
 ---
