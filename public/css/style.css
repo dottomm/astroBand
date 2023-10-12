@@ -80,12 +80,15 @@ body{
     body { 
         margin: 0;
         padding: 0;
-        background: url('/images/tedddybear.jpg') no-repeat center center fixed; 
+        /*
+        background: url('/images/teddybear.jpg') no-repeat center center fixed; 
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
         background-size: cover;
-    background-color: var(--black);
+        */
+        background-color: var(--black);
+        background-image: none;
 }
 .musicians {
     display: block;
@@ -111,4 +114,5 @@ body{
       display: flex;
       justify-self: space-around;
 
+}
 }
