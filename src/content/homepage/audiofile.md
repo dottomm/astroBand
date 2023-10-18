@@ -14,9 +14,6 @@ music:
   - title: Pat Black's Friend
     audio: ../audio/patblackfriend.mp3
 
-  - title: Eating Crap
-    audio: ../audio/eatingcrap.mp3
-
   - title: Lego Song
     audio: ../audio/legosong.mp3
 
