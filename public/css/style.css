@@ -1,7 +1,7 @@
 :root{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 
-    --accent: chartreuse;
+    --accent: rgb(231, 171, 30);
     --black: #000;
     --punk: #f40d0d;
 
@@ -13,7 +13,7 @@ body{
     margin: 0;
     padding: 0;
     background-color: #000;
-    background: url('/images/teddybear.jpg') no-repeat center center fixed;
+    background: url('/images/rawkinghorse.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -60,7 +60,7 @@ body{
 }
 .musicians  li{
   font-size: 1.3em;
-    color:#fff;
+    color:#e4920d;
     display: flex;
     justify-self: space-around;
     
@@ -80,14 +80,14 @@ body{
     body { 
         margin: 0;
         padding: 0;
-        /*
-        background: url('/images/teddybear.jpg') no-repeat center center fixed; 
+        
+        background: url('/images/rawkinghorse.jpg') no-repeat center center fixed; 
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
         background-size: cover;
-        */
-        background-color: var(--black);
+        
+        background-color: #fff;;
         background-image: none;
 }
 .musicians {
@@ -96,16 +96,16 @@ body{
 }
 
 .label{
-    color:#fff;
+    color:#e8a41c;
     margin-left:0ch;
     padding-right: 2ch;
 }
 .title{
-    color:var(--punk);
+    color:#e8a41c;
 }
 
 .song{
-    background-color: var(--punk);
+    background-color: #e4a616;
 }
 
 .musicians  li{
