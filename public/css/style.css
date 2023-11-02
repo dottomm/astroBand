@@ -1,7 +1,7 @@
 :root{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 
-    --accent: rgb(231, 171, 30);
+    --accent: rgb(164, 164, 161);
     --black: #000;
     --punk: #f40d0d;
 
@@ -13,7 +13,7 @@ body{
     margin: 0;
     padding: 0;
     background-color: #000;
-    background: url('/images/rawkinghorse.jpg') no-repeat center center fixed;
+    background: url('/images/spaceship.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;

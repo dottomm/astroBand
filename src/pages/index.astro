@@ -3,7 +3,7 @@ import Layout from '../layouts/Layout.astro';
 import Player from '../components/MusicPlayer.astro';
 import { getEntryBySlug } from "astro:content";
 
-const homepage = await getEntryBySlug("homepage", "rawkinghorse");
+const homepage = await getEntryBySlug("homepage", "audiofile");
 const {banner, music } = homepage.data;
 
 ---
@@ -12,7 +12,7 @@ const {banner, music } = homepage.data;
 	<main>
 		
 		<h1 class="title">{banner.title}</h1>
-		<h2 class="title">Rawking Horse Ranch Showcase Set</h2>
+		<h2 class="title">November 2023</h2>
 		<ul class="musicians">
 			<li><span class="label">Vocals: </span> {banner.vocals}</li>
 			<li><span class="label">Drums: </span> {banner.drums}</li>
