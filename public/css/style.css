@@ -4,6 +4,7 @@
     --accent: rgb(164, 164, 161);
     --black: #000;
     --punk: #f40d0d;
+    --rust: #e4920d;
 
     --fontLight: font-weight:100;
     --fontNormal: font-weight:normal;
@@ -24,7 +25,7 @@ body{
 .title{
     margin:1em;
     font-size: 3em;
-    color:var(--accent);
+    color:var(--rust);
     text-align: center;
     letter-spacing: 3px;
 }
@@ -60,7 +61,7 @@ body{
 }
 .musicians  li{
   font-size: 1.3em;
-    color:#e4920d;
+    color:var(--rust);
     display: flex;
     justify-self: space-around;
     
@@ -81,38 +82,31 @@ body{
         margin: 0;
         padding: 0;
         
-        background: url('/images/rawkinghorse.jpg') no-repeat center center fixed; 
+        background: url('/images/spaceship.jpg') no-repeat center center fixed; 
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
         background-size: cover;
-        
         background-color: #fff;;
-        background-image: none;
+      
 }
 .musicians {
     display: block;
-   
+
 }
 
 .label{
-    color:#e8a41c;
+    color:var(--accent);
     margin-left:0ch;
     padding-right: 2ch;
 }
-.title{
-    color:#e8a41c;
-}
 
-.song{
-    background-color: #e4a616;
-}
+
 
 .musicians  li{
     font-size: 1.3em;
-      color:var(--accent);
+    color:var(--rust);
       display: flex;
       justify-self: space-around;
-
-}
+    }
 }
