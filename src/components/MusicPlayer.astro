@@ -4,7 +4,7 @@ interface Props {
 	audio: string;
     }
 
-    const { title, audio } = Astro.props;
+const { title, audio } = Astro.props;
 ---
 <div class="container">
     <div><h2>{title}</h2></div>
@@ -15,7 +15,9 @@ interface Props {
     </audio>
 </div>
 
-
+<!--
+    //script allows only on player at a time
+ -->
 <script>  
     document.addEventListener('play', function(e){
        var audios = document.getElementsByTagName('audio');
