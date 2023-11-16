@@ -9,7 +9,7 @@ banner:
 music:
 
   - title: Hatched in Space
-    audio: ../audio/HatchedinSpace.mp3
+    audio: ../audio/hatched-from-space+more.mp3
 
   - title: Time Chicken
     audio: ../audio/rawkingHorse/timechicken-rh.mp3
