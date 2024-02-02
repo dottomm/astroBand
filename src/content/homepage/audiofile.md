@@ -8,6 +8,9 @@ banner:
 
 music:
 
+  - title: Free Burd
+    audio: ../audio/freeBurd.mp3
+
   - title: Hatched in Space
     audio: ../audio/hatched-from-space+more.mp3
 
